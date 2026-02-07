@@ -127,6 +127,23 @@ python -m bark --text "Hello, this is Bark." --output_filename "example.wav"
 ```
 
 ## 💻 Installation
+
+**Option 1: Install with requirements.txt (Recommended)**
+```bash
+# Create virtual environment
+python -m venv bark_env
+
+# Activate it (Windows)
+.\bark_env\Scripts\Activate.ps1
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install Bark
+pip install -e .
+```
+
+**Option 2: Direct install**
 ```bash
 pip install -e .
 ```
